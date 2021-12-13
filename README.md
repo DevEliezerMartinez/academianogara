@@ -1,3 +1,3 @@
 # AcademiaNogara
-Projects for academy
-naye estuvo aqui
+Projects for academy Nogara, nice xd
+// naye estuvo aqui 
