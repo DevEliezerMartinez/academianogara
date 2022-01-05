@@ -10,20 +10,67 @@
     <!--Es para entrada de datos    -->
     <!-- ¡FORMULARIOS!. -->
     <h1>--FORMULARIOS</h1>
-    <form>
 
-        <label for="name">Nombreee</label>
-      <input type="text" name="nombre" id="name" />
-      <br> <br>
+    <form action="">
+      <!--  INPUT Es para ingresar informacion
+          type es para el decir el tipo de dato
+          name el nombre y id el indentificador
+      <input type="text" name="nameee" id="nameee">
+      -->
+      <!--  label es para añadir una descripcion 
+      for es para poner el identificador del input
+      placeholder añade texto de fondo
+      y value tiene con texto de relleno
+     -->
 
-      <label for="correo">email</label>
-      <input type="text" name="correo" id="correo" />
-<br> <br>
-      <label for="correo">telefono</label>
-      <input type="text" name="correo" id="correo" />
+      <label for="nameee">Nombree</label>
+      <input type="text" name="nameee" id="nameee" placeholder="Nombres" />
+      <br />
+      <br />
 
-      
-      
+      <label for="apellido"> apellidoo</label>
+      <input type="text" name="apellido" id="apellido" placeholder="apellido" />
+      <br /><br />
+
+      <label for="email"> correo-email</label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+
+      <label for="tel">telefonoo</label>
+      <input type="tel" name="tel" id="tel" />
+      <br /><br />
+      <label for="number">number</label>
+      <input type="number" name="number" id="number" />
+      <br /><br />
+
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" required />
+      <br /><br />
+
+      <label for="">hombre</label>
+      <input type="radio" name="perro" id="hombre" />
+
+      <label for="">mujer</label>
+      <input type="radio" name="perro" id="mujer" checked />
+
+      <label for="">no binario</label>
+      <input type="radio" name="perro" id="no bin " />
+      <br /><br />
+
+      <label for="aviso">Avisoo</label>
+      <input type="checkbox" name="aviso" id="aviso"  />
+
+      <br /><br />
+      <label for="promo">promos</label>
+      <input type="checkbox" name="promo" id="promo"  />
+
+      <br /><br />
+
+      <br /><br />
+      <!--ETIQUETA para enviar o boton-->
+      <input type="submit" value="ENVIAR"  />
     </form>
+
+    <!--PREGUNTAR A DANI SI PARA LIMITAR INPUTS DE CARACTERES USAS ETIQUETA O JAVASCRIPT -->
   </body>
 </html>
