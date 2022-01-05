@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clase 6</title>
+  </head>
+  <body>
+    <h1>Clase 6</h1>
+    <form autocomplete="off">
+      <fieldset>
+        <label for="">Color fav</label>
+        <input type="color" name="" id="" /> <br /><br />
+
+        <label for="">fecha</label>
+        <input type="date" name="" id="" /> <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>alabestia</legend>
+        <label for="">hora local</label>
+        <input type="datetime-local" name="" id="" /> <br />
+        <br />
+        <br />
+        <label for="">datatime</label>
+        <input type="datetime" name="" id="" />
+        <br /><br />
+        <label for="">adj</label>
+        <input type="file" name="" id="" />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <label for="">meses</label>
+        <input type="month" name="" id="" />
+        <br /><br />
+        <label for="">rangos</label>
+        <input type="range" name="" id="" />
+        <br /><br />
+        <label for="">busqueda</label>
+        <input type="search" name="" id="" />
+        <br /><br />
+        <label for="">hora</label>
+        <input type="time" name="" id="" />
+        <br /><br />
+        <label for="">pagina</label>
+        <input type="url" name="" id="" value="https://lol.com" />
+        <br /><br />
+
+        <input type="number" name="" id="" min="10" max="23" autofocus />
+        <br /><br />
+        <label for="">texto</label>
+        <input type="text" name="" id="" size="3" maxlength="3" />
+        <br /><br />
+      </fieldset>
+
+      <!--DEBE TENER CUIDADO CON TEXT AREA-->
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="10"
+        placeholder="lolcito"
+      ></textarea>
+      <br /><br />
+
+      <!--es mejor usar css-->
+      <input list="frutas" />
+      <datalist id="frutas">
+        <option value="mango">MANGOOOO</option>
+        <option value="banan">BANANANAAA</option>
+        <option value="lol">LOLLLL</option>
+      </datalist>
+      <br /><br />
+
+      <br /><br />
+
+      <select name="" id="">
+        <option value="mango">mango</option>
+        <option value="banan">banana</option>
+        <option value="lol">antisolc</option>
+      </select>
+
+      <br><br>
+
+      <!--ETIQUETA para enviar o boton-->
+      <input type="submit" value="ENVIAR" />
+      <br /><br />
+      <input type="reset" value="RESET" />
+      <br /><br />
+      <input type="hidden" name="" value="hombre" />
+      <!--solo para requirimiento rapido o parchear algo o para mandar informacion de base de datos-->
+      <br /><br />
+    </form>
+  </body>
+</html>
