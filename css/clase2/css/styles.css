@@ -1,0 +1,14 @@
+h1{
+    font-variant: small-caps;  /*  texto para mayusculas */
+    font-variant: normal;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-shadow: 3px Opx 8px black;
+    text-indent: 30px;
+
+}

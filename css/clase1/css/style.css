@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+font-family: 'Roboto', sans-serif;
+
+/* archivo principal */
+main{
+    background-color: orange;
+    color:blue
+}
+
+h1{
+    
+    /* propiedad         valor */
+    background-color:aquamarine;
+}
+p{
+    background-color:plum;
+}
+/* los id solo funcinan para identificar un elemento */
+/* #n1,#n2,#ultimo{
+background-color: darkblue;
+} */
+
+.rojo{
+    background-color:chartreuse;
+    font-size: 30px;
+    font-weight:inherit;
+    font-family: 'Roboto';
+}
+
+
+
+
+
+
