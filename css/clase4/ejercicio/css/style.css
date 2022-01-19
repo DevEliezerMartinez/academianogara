@@ -1,0 +1,52 @@
+*{
+    color: white;
+    background-color: dodgerblue;
+}
+ h1{
+     
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.espacio{
+    max-width: 90%;
+    margin-left: 40px;
+
+}
+
+.texto{
+    max-width: 45%;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+
+.formulario{
+    background-color: gray;
+    
+    margin-top: 70px;
+    text-align: center;
+    
+}
+#formas{
+    border-style: 100px, solid ;
+    margin-left: 900px;
+    padding: 20px;
+    background-color: gray;
+    padding: 20px;
+    width: 40%;
+    height: 400px;
+    float: left;
+}
+.imagen{
+    width: 20%;
+    max-width: 200px ;
+    margin-top: 10px;
+    margin-left: 90px;
+    float: left;
+}
+
+.imagen-redes{
+    width: 10%;
+    float: left;
+}

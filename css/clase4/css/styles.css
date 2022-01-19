@@ -1,0 +1,33 @@
+h1{
+    color: dodgerblue;
+    text-align: center;
+     /* border añada un borde teniendo el grosor, el estilo(solid linea continua, dotted liena punteada, dashed que v con guiones double borde doble, groove en 3d, ridge, inset un dieño flat, outset), y color */
+    border-top: 10px solid dodgerblue;
+    border-bottom: 10px dashed pink;
+    border-left: 10px dotted orange;
+    border-right: 10px outset red;
+    margin: 30px;
+    padding: 30px;
+    text-align: center
+    /* margin-right: 300px; */
+    /* float: left */;
+    border-radius: 10px;
+    width: 300px;
+    /* margin-right: auto; */
+    
+    /* auto todo el espacio
+    arriba y abajo funcioa el margin auto
+    margin auto solo funciona con bloques
+    display block 
+    los margenes se sobreponen
+
+    */
+
+}
+
+img{
+    width: 20%;
+    border-radius: 50% 10px;
+    margin: 20px,auto;
+    display: block;
+}
