@@ -15,7 +15,7 @@
 }
 
 .texto{
-    max-width: 45%;
+    max-width: 30%;
     margin-top: 50px;
     margin-left: 40px;
     float: left;
@@ -29,6 +29,7 @@
     
 }
 #formas{
+    background-color: white;
     border-style: 100px, solid ;
     margin-left: 900px;
     padding: 20px;
@@ -42,8 +43,8 @@
     width: 20%;
     max-width: 200px ;
     margin-top: 10px;
-    margin-left: 90px;
-    float: left;
+    margin-left: 40px;
+    
 }
 
 .imagen-redes{
