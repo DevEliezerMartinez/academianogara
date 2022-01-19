@@ -1,29 +1,31 @@
+/* Estilos para todo el css */
 *{
     margin: 5px;
     padding: 1px;
+    font-family: roboto;
     
 }
-
+/* Muestra el logo de yt condiv */
 .imagen-logo {
   background-image: url(img/imagelarge.jpg);
-  width: 10%;
-  min-width: 110px;
+  width: 10%; /* largo */
+  min-width: 110px; /* establemos limite para evitar que colapse */
   max-height: 47px;
-
+  
   height: 45px;
   background-size: cover;
   float: left;
   /* background-position: bottom ;  */
   /* background-repeat: repeat; */
 }
-
+/* formulario de busqueda */
 .buscador-p {
     
   margin-top: 10px;
   margin-left: 40px;
   float: left;
 }
-
+/* img del buscador */
 .imagen-buscador {
   margin-top: 17px;
   margin-left: 5px;
@@ -38,11 +40,11 @@
 
 }
 
-.espaciadora{
+/* .espaciadora{
   background-color: black;
   width: 100px;
   height: 20px;
-}
+} */
 
 .menu-lateral {
   margin-top: 5px;
@@ -53,6 +55,8 @@
   min-width: 200px;
   height: 50px;
   background-position: top, right ;
+  max-width: 200px;
+
 }
 
 .lista-gral{
@@ -72,10 +76,30 @@ ul,li{
   .list{
     font-size: 15px;
   }
+  
+  div.seccion-videos {width: 300px;
+  float: left;
+  padding-left: 40px;
 
-  .videos{
- background-image: url(img/maxresdefault.jpg);
- width: 30%;
- height: 2000%;
+}
 
-  }
+    div.seccion-videos img {
+      width: 100%;
+      height: auto;
+      
+    }
+   
+
+    div.titulo {
+      padding: 10px;
+     
+    }
+
+    div.autor{
+      padding: 1px;
+      color:gray
+    }
+  
+
+ 
+  
