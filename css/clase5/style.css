@@ -1,0 +1,14 @@
+/* un clear es ir quitando las configuracion por defecto */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+h1{
+    box-sizing: border-box; /* content box es prederteminado y border bpx tomo en cuanta todo hasta el border */
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    background-color: pink;
+    border: 5px dotted dodgerblue;
+}

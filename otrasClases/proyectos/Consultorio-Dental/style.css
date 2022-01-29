@@ -1,0 +1,57 @@
+body{
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+.main{
+    width: 99%;
+    /* border: 10px solid orange; */
+    margin: .1px;
+    padding: .1px;
+}
+
+.contenido_superior {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    /* border: 10px solid red; */
+    }
+
+.contenido_superior img{
+width: 30%;
+}
+
+.formularios{
+   /*  border: 10px solid blanchedalmond; */
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.formularios input{
+    text-align: center;
+   width: 30%;
+   height: 30px;
+   border-radius: 5px;
+   border: 4px solid gray;
+}
+
+.boton{
+    margin-top: 40px;
+    width: 27%;
+    margin-left: 36%;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border: 3px solid gray;
+    border-radius: 10px;
+    text-decoration-style:none;  
+}
+
+.boton a{
+    text-decoration-style:none;
+    font-style: italic;
+    color: white;
+   
+}
