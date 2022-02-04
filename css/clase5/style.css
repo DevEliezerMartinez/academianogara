@@ -4,10 +4,40 @@
     margin: 0px;
 }
 
+body{
+padding: 1rem;
+}
+
+
+nav{
+    background-color: dodgerblue;
+   
+}
+nav ul{
+
+}
+
+
+
+nav li{
+    display:inline-block;
+    padding: 10px;
+    background-color:turquoise;
+    
+}
+
+nav a{
+    width: 200px;
+    color: white;
+    background-color: tomato;
+    padding: 10px ;
+}
+
+
 h1{
     box-sizing: border-box; /* content box es prederteminado y border bpx tomo en cuanta todo hasta el border */
     width: 50%;
-    height: 40px;
+    height: 7   0px;
     padding: 10px;
     background-color: pink;
     border: 5px dotted dodgerblue;
