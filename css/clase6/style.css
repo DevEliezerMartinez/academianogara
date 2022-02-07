@@ -175,3 +175,19 @@
 }
 
 
+@media screen and (max-width: 850px) {
+    .header_superior{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo{
+        justify-content: end;
+    }
+
+    .menu_lateral{
+        width: 100%;
+    }
+
+    
+}
