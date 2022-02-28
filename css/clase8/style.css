@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    margin-top: 10rem;
+}
+
+nav{
+    background-color: dodgerblue;
+   padding:  1rem;
+   margin-top: 5rem;
+   position: sticky;
+/*    left: 100px;   */
+/*    bottom: 0; */
+top: 0px;
+  /*  right: 40px; */
+}
+
+nav ul{
+
+    /*list-style-type: thai; /* no sabemos que hace 
+    list-style-position: inside; /* Añade el bullit de las listas a al espacio del li 
+    list-style-image: url("img/favicon.ico"); /* agregamos nuestro propio bullit (pero no se recomienda por ser experimental) 
+}*/
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: .75rem;
+
+    background-color: orange;
+    margin: .5rem;
+}
+
+section p{
+    font-size: 1.7rem;
+    background-image: url(img/arbol.jpg);
+    background-attachment: fixed;
+
+}
+
+
+ div{
+     background-color: aqua;
+     padding: 1rem;
+     height: 300px;
+     margin: 3rem;
+     position: relative;
+ }
+
+ h1{
+     background-color:  black;
+     color: white;
+      position: absolute; 
+     top: 100px;
+     left: 200px ;
+ }
+/* @media screen and (min-width: 500px) {
+
+nav{
+    position: static;
+}
+    
+} */
+
+
+/* resumen de la clase
+
+posicion
+fixed, relative absolute
+
+parallax
+background atacchmente
+
+ */
