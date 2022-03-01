@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: orange;
+    padding: 2rem;
+    display: flex;
+    
+}
+
+div{
+    background-color: dodgerblue;
+    border: 3px solid green;
+}
+
+div ::first-letter{
+    font-size: 2rem;
+    color: white;
+
+
+}
+
+ul{
+    display: flex;
+    margin: 1rem;
+    font-size:  2rem;
+}
+
+li{
+    margin: 1rem;
+    color: dodgerblue;
+}
+
+li::before{
+   
+    
+    content: '';
+    background-color: brown;
+    width: 100%;
+    height: 1rem;
+    display: block;
+    margin-bottom: -2.5rem;
+    border-radius:5px;
+}
+
+div ::first-letter{
+    font-size: 2rem;
+    color: white;
+
+
+}
+
