@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    
+ 
+}
+
+main{
+   
+    display: flex;
+    justify-content: center;
+}
+.central{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 10px;
+    max-width: 500px;
+}
+
+.central img{
+    border-radius: 10px 10px 0px 0px;
+    max-width: 500px;
+}
+
+.cuerpo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 2rem;
+   
+}
+
+.cuerpo h1{
+    color: hsl(223, 47%, 23%);
+    ;
+}
+
+.cuerpo p{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    padding: 2rem;
+}
+
+.plan{
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    
+}
+
+.plan h2{
+    color: color: hsl(223, 47%, 23%);
+}
+.plan img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.contenido_plan{
+    
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around;
+
+
+}
+.contenido_plan h2{
+    color: hsl(223, 47%, 23%);
+}
+
+.contenido_plan p {
+    padding: 0px;
+}
+
+.contenido_plan a{
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons :nth-child(1){
+    padding: 1rem;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.buttons a:nth-child(1):hover{
+background-color:  hsl(223, 48%, 61%);
+}
+
+.buttons  :nth-child(2){
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    padding: .5rem;
+}
+
+.buttons  :nth-child(2):hover{
+   color: hsl(228, 28%, 45%);
+}

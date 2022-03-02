@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.menu_superior{
+
+    display: flex;
+    border: 2px solid dodgerblue;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu_superior img{
+    width: 100px;
+}
+
+.lateral{
+  
+    width: 30%;
+    
+}
+
+.lateral ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lateral a{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: rgb(70, 44, 44);
+    color: goldenrod;
+    border-radius: 10px;
+   
+}
+
+
+.contenido{
+   display: flex;
+}
+
+.contenido2{
+    display: flex;
+ }
+
+.izq{
+    background-image: url(img/fondouwu.jpg);
+    width: 50%;
+    height:300px;
+    background-position:center;
+    background-size: cover;
+}
+
+.dere{
+    width: 50%;
+    justify-content: center;
+    justify-items: center;
+    background-color: #b4ccff;
+    color: #153d90;
+    padding: 20px;
+}
+
+
+.izq1{
+    background-image: url(img/fondouwu.jpg);
+    width: 50%;
+    height:300px;
+    background-position:center;
+    background-size: cover;
+}
+
+.dere1{
+    width: 50%;
+    justify-content: center;
+    justify-items: center;
+    background-color: #b4ccff;
+    color: #153d90;
+    padding: 20px;
+}
+
+footer{
+    display: flex;
+}
+
+.info{
+
+   border: 2px solid rebeccapurple;
+   width: 30%;
+}
+
+
+
