@@ -1,96 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
-.menu_superior{
+main{
+    font-family:sans-serif;
+    border-radius: 4px;
+    background-color: #5463FF;
+   color: #ECECEC;
+    border-radius: 4px;
+    font-family: 'Oswald', sans-serif;
+}
 
+header{
+    background-color: #FFB72B;
     display: flex;
-    border: 2px solid dodgerblue;
+    justify-content:space-between;
     align-items: center;
-    justify-content: space-between;
+    position: sticky;
+
+}
+header img{
+    max-width: 130px;
+    min-width: 50px;
 }
 
-.menu_superior img{
-    width: 100px;
+#login{
+    width: 20px;
 }
 
-.lateral{
-  
-    width: 30%;
-    
-}
-
-.lateral ul{
-    list-style: none;
+.menu{
+    width: 30em;
+    height: 3rem;
     display: flex;
     justify-content: space-around;
+    
+    align-items: center;
 }
 
-.lateral a{
-    text-decoration: none;
-    padding: 1rem;
-    background-color: rgb(70, 44, 44);
-    color: goldenrod;
-    border-radius: 10px;
-   
+
+
+
+.menu-img{
+    display: none;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+
 }
 
+.menu a{
+    text-decoration-line: none; 
+    color: white;
+    margin-left: 2rem;
+    padding: 10px;
+    background-color:#3E497A;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+.menu li :hover{
+    background-color: #FFE61B;
+}
+
+.aviso {
+    background-color: #FF1818;
+    color: white;
+    text-align: center;
+}
 
 .contenido{
-   display: flex;
+  
+}
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url("img/Banner-princip.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.contenido2{
+.servicios ul {
+    margin: 1rem;
     display: flex;
- }
-
-.izq{
-    background-image: url(img/fondouwu.jpg);
-    width: 50%;
-    height:300px;
-    background-position:center;
-    background-size: cover;
+    list-style: none;
+    justify-content: space-around;
+    
 }
 
-.dere{
+.servicios a{
+    text-decoration-line: none; 
+    color: white;
+    margin-left: 2rem;
+    padding: 1.5rem 2<rem;
+    background-color:#4999dc;
+    text-align: center;
+/*     border-radius: 5px;
+ */    
+
+}
+
+.servicios li :hover{
+    background-color: #75c7ff;
+}
+
+
+.mosaico{
+    display: flex;
+}
+
+.card-informativa{
     width: 50%;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-items: center;
-    background-color: #b4ccff;
-    color: #153d90;
-    padding: 20px;
+text-align: center;
+color: #DFF6FF;
 }
 
 
-.izq1{
-    background-image: url(img/fondouwu.jpg);
+.card-informativa p{
+    text-align: justify;
+    padding: 2rem;
+}
+
+.card-img{
     width: 50%;
-    height:300px;
-    background-position:center;
+    height: 400px;
+    background-image: url(img/fiesta1.jpg) ;
+    background-position: center;
     background-size: cover;
-}
-
-.dere1{
-    width: 50%;
-    justify-content: center;
-    justify-items: center;
-    background-color: #b4ccff;
-    color: #153d90;
-    padding: 20px;
+    border-radius: 4px;
 }
 
 footer{
-    display: flex;
+    text-align: center;
+    margin: 2rem;
+
 }
 
-.info{
+footer h2{
+    margin: 1rem;
+}
 
-   border: 2px solid rebeccapurple;
-   width: 30%;
+footer p {
+    margin: 1rem;
 }
 
 
+footer a{
+    padding: 1rem;
+    background-color: #ecd871;
+    border-radius: 19px;
+    text-decoration: none ;
+    color: beige;
+}
 
+/**/
+
+
+@media only screen and (max-width: 600px) {
+    div.menu {
+      display: none;
+    }
+
+    div.menu-img {
+        display:flex;
+        justify-content: flex-end;
+        
+    }
+
+    .card-informativa {
+        width: 100%;
+    }
+
+    .card-img{
+        margin-left: 90px;
+    }
+    div.mosaico{
+        flex-direction: column;
+    }
+
+    #login{
+        width: 10px;
+    }
+
+ 
+  }
