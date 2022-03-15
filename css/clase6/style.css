@@ -49,12 +49,12 @@
 .logo {
     display: flex;
     justify-content: flex-start;
-    max-width: 50%;
+  
     padding: 1.5%;
 }
 
 .logo img {
-    width: 17%;
+    width: 200px;
     min-width: 70px;
 }
 
@@ -101,14 +101,17 @@
     color: white;
 }
 
-d
+#conta{
+    background-color:yellow ;
+}
 
 .left a {
    text-decoration: none;
    color: white;
+   background-color: #EBE645;
    margin-top: 100px;
    padding: 12px;
-   background-color: rgba(25,52,152,1);
+   
   border-radius: 30px;
 }
 
@@ -127,7 +130,7 @@ d
 
 
 }
-.right iframe{
+.right img{
     
     border-radius: 10px;
   

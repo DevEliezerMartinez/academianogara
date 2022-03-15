@@ -58,9 +58,28 @@ if (condicion){
 }
  */
 
-var num1= 4;
+/* var num1= 4;
 var num2= 2.69;
-var num3= -404;
+var num3= -404;16.9
 
 var suma = num1+ 6;
-console.log(suma);
+console.log(suma); 
+
+17
+1717.9
+
+var dinero = 300;
+var pcGamer=    800;
+
+
+*/
+
+
+var edad = prompt('¿Cuantos años tienes?');
+if(edad>=18){
+    alert('Puedes entrar');
+}
+
+if (edad<=17){
+    alert('Pa tu casaaa xd');
+}

@@ -12,6 +12,7 @@ main{
    color: #ECECEC;
     border-radius: 4px;
     font-family: 'Oswald', sans-serif;
+    max-width: 2440px;
 }
 
 header{
@@ -25,10 +26,20 @@ header{
 header img{
     max-width: 130px;
     min-width: 50px;
+    
 }
+
+.menu-movible img{
+    max-width: 45px;
+    min-width: 50px;
+    
+}
+
+
 
 #login{
     width: 20px;
+    margin: 1rem ;
 }
 
 .menu{
@@ -113,6 +124,7 @@ header img{
 
 .mosaico{
     display: flex;
+    align-items: center;
 }
 
 .card-informativa{
@@ -138,6 +150,8 @@ color: #DFF6FF;
     background-position: center;
     background-size: cover;
     border-radius: 4px;
+    margin: 2rem;
+
 }
 
 footer{
@@ -167,6 +181,24 @@ footer a{
 
 
 @media only screen and (max-width: 600px) {
+
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    header h1{
+       display: flex;
+    }
+
+    div.menu-movible {
+        display: flex;
+        
+    }
+
+    #menu-img{
+        float: left;
+    }
     div.menu {
       display: none;
     }
