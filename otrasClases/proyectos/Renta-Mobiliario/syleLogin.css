@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+background-color: paleturquoise;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: cornsilk;
+    color: black;
+    
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenido img {
+    width: 30%;
+}
+
+.imagenCentral{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: space-around;
+}
+
+.formulario input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.formulario #enviar {
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+}
