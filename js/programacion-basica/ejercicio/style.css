@@ -1,0 +1,126 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border: 2px solid dodgerblue;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.box form {
+  margin-top: 1rem;
+}
+.box input {
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+
+.botones {
+  margin: 2rem;
+  display: flex;
+}
+
+.radios {
+  border: 2px solid springgreen;
+  display: flex;
+  align-items: center;
+}
+.radios span{
+  padding: 1rem;
+}
+
+.radios input{
+  width: 10%;
+}
+/* #btnAñadir{
+background-color: #54b3d6;
+}
+
+#btnMostrar{
+background-color: deeppink;
+} */
+.btn {
+  margin: 1rem;
+  padding: 0.5rem 3rem;
+  background-color: green;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  box-shadow: inset 0 0 0 0 #54b3d6;
+
+  transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+#btnMostrar:hover {
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+  color: white;
+}
+
+#btnAñadir:hover {
+  box-shadow: inset 200px 0 0 0 deeppink;
+  color: white;
+}
+
+#btnEliminar {
+  background-color: red;
+  display: none;
+}
+
+.lista {
+  display: none;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.item {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item button {
+  margin-left: 0.5rem;
+}
+
+.up {
+  display: flex;
+  flex-direction: column;
+}
+
+.down {
+  display: flex;
+  text-align: center;
+}
+
+.item li {
+  color: blue;
+}
