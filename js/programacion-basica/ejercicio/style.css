@@ -42,6 +42,9 @@ section {
   width: 100%;
 }
 
+.tareaContainer{
+  float: left;
+}
 
 .botones {
   margin: 2rem;
@@ -49,9 +52,10 @@ section {
 }
 
 .radios {
-  border: 2px solid springgreen;
+ /*  border: 2px solid springgreen; */
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .radios span{
   padding: 1rem;

@@ -1,0 +1,28 @@
+div{
+    
+    width: 100%;
+    background-color: dodgerblue;
+    border: 2px solid red;
+    text-align: center;
+    margin: 2em;
+    
+}
+
+.btn > span{
+    /* pointer-events: none; */
+}
+.btn > span:hover{
+    cursor: pointer;
+}
+
+section div{
+    width: 20%;
+    height: 400px;
+    float: left;
+    border:2px solid red;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}

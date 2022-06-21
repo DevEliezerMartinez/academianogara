@@ -14,15 +14,26 @@ function crearCards(resultado){
      console.log(resultado); 
      var container = document.getElementsByTagName('main')[0];
      var element = document.createElement('div');
-     element.innerHTML = `
-     <div class="contImg"> <img src="${resultado.hits[0].largeImageURL} "> </div>
+
+     for (let i = 0; i < 10; i++) {
+
+        element.innerHTML = `
+     <div class="contImg"> <img src="${resultado.hits[i].largeImageURL} "> </div>
      <div class="info"> 
-     ID <span> : ${resultado.hits[0].id} </span> -Usuario: <span>${resultado.hits[0].user} </span> 
+     ID <span> : ${resultado.hits[i].id} </span> -Usuario: <span>${resultado.hits[i].user} </span> 
          
      </div>    
      `;
  
-     container.appendChild(element);
+      container.appendChild(element); 
+       
+    }
+
+    
+
+
+
+
  }
 
    
@@ -44,6 +55,50 @@ function getPokemon(){
     .then(response => response.json())
     .then(data => crearPokemon(data))
 }
+
+
+
+
+     var container = document.getElementsByTagName('main')[0];
+   
+     for (let i = 0; i < 10; i++) {
+
+        element.innerHTML = `
+     <div class="contImg"> <img src="${resultado.hits[i].largeImageURL} "> </div>
+     <div class="info"> 
+     ID <span> : ${resultado.hits[i].id} </span> -Usuario: <span>${resultado.hits[i].user} </span> 
+         
+     </div>    
+     `;
+ 
+      container.appendChild(element); 
+       
+    }
+      
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
