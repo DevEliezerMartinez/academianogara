@@ -57,7 +57,7 @@ function mostrar(tarea) {
 
   if (rad_completada) {
     console.log("completada");
-    estado = "completado";
+    estado = "hecha";
   }
   if (rad_pendiente) {
     console.log("Pendiente");
