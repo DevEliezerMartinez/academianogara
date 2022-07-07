@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    margin: 2rem 0 2rem;
+}
+
+img {
+    width: 60%;
+    display: block;
+    margin: auto;
+    animation-name: girar;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-delay: .5seg;
+    animation-direction: reverse;
+    animation-play-state: paused;
+    animation-fill-mode: backwards;
+    margin-bottom: 5rem;
+}
+
+.cuadro {
+    width: 150px;
+    /* width: max(50%, 300px); */
+    height: 150px;
+    background-color: dodgerblue;
+    position: absolute;
+    top: 5rem;
+    left: calc((100% / 2) - 75px);
+}
+
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+        width: 0;
+        height: 0;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes color {
+    0% {
+        background-color: aqua;
+    }
+    50% {
+        background-color: blue;
+    }
+    100% {
+        background-color: brown;
+    }
+}

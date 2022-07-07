@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    background-color: darksalmon;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+section {
+    background-color: dodgerblue;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: 200px 400px 300px;
+    /* definicion de columnas*/
+    /* 25% 25% 25% 25% 4 columnas iguales */
+    /* grid-template-columns: repeat(5,20%); n. de partes y medida*/
+    /*grid-template-column:repeat(6,calc(100%/6))*/
+    /*grid-template-column:repeat(4, 1fr)*/
+    /**/
+    grid-template-rows: 100px 300px 100px;
+    row-gap: 10px;
+    column-gap: 20px;
+    gap: 10px 20px;
+    /* fila/columna */
+}
+
+div:first-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-column: 2/4;
+}
+
+div:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-column: 1/5;
+}
+
+div:nth-child(3) {
+    grid-row: 2/5;
+    grid-column: 4/5;
+}
